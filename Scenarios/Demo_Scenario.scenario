@@ -29,7 +29,7 @@
     <userinfo/>
   </basics>
   <resources>
-    <resource name="Demo.ds" type="ds" path="REPOSITORY/Git_Repo_01/Demo.ds"/>
+    <resource name="NewTest.ds" type="ds" path="{scenario}/../NewTest.ds"/>
   </resources>
   <testnodes>
     <node name="localhost" location="https://training.appvance.net:/TMServer/ws/TestNode"/>
@@ -144,7 +144,7 @@
     </controller>
     <testcase name="Testcase1" importance="normal">
       <test>
-        <run name="DemoScenario" langtype="ds3" resource="Demo.ds" method="ds" testclass="Chrome"/>
+        <run name="DemoScenario" langtype="ds3" resource="NewTest.ds" method="ds" testclass="Chrome"/>
       </test>
     </testcase>
     <assertsuite xmlns="www.pushtotest.com/tm5" name="Optional"/>
