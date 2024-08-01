@@ -3,10 +3,11 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='addValidationsWorkbench' value='"{ds}/UsingBasic.valid"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f3710888-56fa-45cd-8f20-da2808c56aae' uiType='base'>
+      <dialect type='sahi'></dialect>
+    </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cadf4546-9e98-431f-9eec-dd94d84c0771' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4e5e5e7c-20fe-421d-be7a-c032c97d7ff2' uiType='base'>
       <dialect type='sahi'>
@@ -85,9 +86,7 @@
       </dialect>
     </step>
     <step action='navigateTo' value='"https://demosite.appvance.net/cart?variant_id=5"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c3cede27-06b0-416e-a0b4-d67b1c026243' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
+      <dialect type='sahi'></dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a4612b42-ce1f-4d97-bb45-629ff091c24d' uiType='base'>
       <dialect type='sahi'>
