@@ -70,7 +70,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/622000354889351458090465531087739129258/newaccount.gtl"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='82b8baef-c30f-4b0c-84cc-ecdd699fda7b' uiType='base'>
+    <step action='setValue' value='"appvancce"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='82b8baef-c30f-4b0c-84cc-ecdd699fda7b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="uid"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='textbox("uid")' selected='false' fallback='true'></accessor>
