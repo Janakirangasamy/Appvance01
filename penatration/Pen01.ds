@@ -3,25 +3,12 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
-    <step action='navigateTo' value='"https://google-gruyere.appspot.com/start"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7e50d57d-484b-41ff-af27-07444715294b' uiType='base'>
+    <step action='navigateTo' value='"https://google-gruyere.appspot.com/679000418860444720985924438934138672741"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7e50d57d-484b-41ff-af27-07444715294b' uiType='base'>
       <dialect type='sahi'>
         <accessor type='unknown' value='' selected='true' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='819eedaa-5059-46a9-a052-6081ce7b1f66' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='AttrHref' value='link("/679000418860444720985924438934138672741")' selected='true' fallback='false'></accessor>
-        <accessor type='Text' value='link("Agree &amp; Start")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Agree &amp; Start"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath(&apos;//h2/a&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/h2/a&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath(&apos;/html[1]/body[1]/h2[1]/a[1]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AttrHref' value='link("/347678303044702454370738930573479007875")' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;a[href="/679000418860444720985924438934138672741"]&apos;)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;a[href="/347678303044702454370738930573479007875"]&apos;)' selected='false' fallback='false'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8f98b6ee-4955-41a6-8912-167abad3feba' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8f98b6ee-4955-41a6-8912-167abad3feba' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(span("menu-right")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(span({&apos;id&apos;:&apos;menu-right&apos;})))' selected='false' fallback='true'></accessor>
@@ -36,7 +23,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/347678303044702454370738930573479007875/login"]&apos;)' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='db3d7f68-767a-4766-89d7-81750cf5b7cd' uiType='base'>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='db3d7f68-767a-4766-89d7-81750cf5b7cd' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="uid"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='textbox("uid")' selected='false' fallback='true'></accessor>
@@ -60,7 +47,7 @@
         <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d3cf7cf1-276c-48aa-9de4-1fb8acf1c77e' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d3cf7cf1-276c-48aa-9de4-1fb8acf1c77e' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrValue' value='submit("Login")' selected='true' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
