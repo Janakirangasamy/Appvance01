@@ -1,11 +1,153 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testcase  name= '' description='' author='' version=''>
-<dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale=''/>
-<fallback useFallback='true'/>
-<shadowDOM useShadowDOM='true'/>
-<step action='' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
-  <dialect type='sahi'>
-   <accessor type='' value='' selected='true'/>
-</dialect>
-</step>
-</testcase>
+  <testcase name='' description='script generated from Web Designer' author='Janaki_Rangasamy_CAYUSE@appvance.com' version='webDesigner'>
+    <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
+    <fallback useFallback='true'></fallback>
+    <shadowDOM useShadowDOM='true'></shadowDOM>
+    <step action='navigateTo' value='"https://google-gruyere.appspot.com/start"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7e50d57d-484b-41ff-af27-07444715294b' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8f98b6ee-4955-41a6-8912-167abad3feba' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(span("menu-right")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(span({&apos;id&apos;:&apos;menu-right&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/622000354889351458090465531087739129258/login")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Sign in")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//span[@id=&apos;menu-right&apos;]/a[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Sign in"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/span[2]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;menu-right&apos;)/a[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/622000354889351458090465531087739129258/login"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='db3d7f68-767a-4766-89d7-81750cf5b7cd' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="uid"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("uid")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[1]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3c812e92-180d-4443-a7cd-49a08ec83e8f' uiType='base' isMasked='true'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="pw"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("pw")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d3cf7cf1-276c-48aa-9de4-1fb8acf1c77e' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrValue' value='submit("Login")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Login"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='cd362ce7-ad9f-45ea-8412-cf8c020f770c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(1, _in(span("menu-right")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(1, _in(span({&apos;id&apos;:&apos;menu-right&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/622000354889351458090465531087739129258/newaccount.gtl")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Sign up")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//span[@id=&apos;menu-right&apos;]/a[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Sign up"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/span[2]/a[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;menu-right&apos;)/a[2]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/622000354889351458090465531087739129258/newaccount.gtl"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4fa1e05c-f313-4322-a127-a1e96f811d6f' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="uid"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("uid")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[2]/form/table/tbody/tr[1]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/form/table/tbody/tr/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value=""]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7080ad81-f276-47a8-a607-9f9fd6d8b67d' uiType='base' isMasked='true'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="pw"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("pw")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[2]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='336c2651-0a7f-403c-b5fb-66e8f6e58678' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrValue' value='submit("Create account")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[2]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Create account"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9d8b135f-73d3-4b8c-b9b4-77c79c257411' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(span("menu-right")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(span({&apos;id&apos;:&apos;menu-right&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/622000354889351458090465531087739129258/login")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Sign in")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//span[@id=&apos;menu-right&apos;]/a[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Sign in"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div/span[2]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;menu-right&apos;)/a[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="/622000354889351458090465531087739129258/login"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6fc2cb05-d0da-42ec-9620-eb74a7534fbf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="uid"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("uid")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[1]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[1]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//input[@name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="uid"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"appvance"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7816fc26-4b2b-42dc-a955-559427ee2b40' uiType='base' isMasked='true'>
+      <dialect type='sahi'>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="pw"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("pw")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[2]//td[2]//input[@name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1a649cef-1030-4685-9281-867edd1c1a03' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrValue' value='submit("Login")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[3]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[3]/form/table/tbody/tr[3]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="Login"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+  </testcase>
