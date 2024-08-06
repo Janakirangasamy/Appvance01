@@ -85,8 +85,8 @@
     </step>
     <step action='setValue' value='appvance' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7080ad81-f276-47a8-a607-9f9fd6d8b67d' uiType='base' isMasked='true'>
       <dialect type='sahi'>
-        <accessor type='AttrName' value='password("pw")' selected='true' fallback='true'></accessor>
-        <accessor type='XPathName' value='byXPath(&apos;//*[@name="pw"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="pw"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("pw")' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath(&apos;//div[2]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/form/table/tbody/tr[2]/td[2]/input&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("/html[1]/body[1]/div[@class=&apos;content&apos;]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/input[1]")' selected='false' fallback='true'></accessor>
