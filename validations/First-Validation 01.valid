@@ -1,0 +1,14 @@
+{
+	"customActions": [],
+	"validations": [
+		{
+			"triggerType": "element",
+			"validationType": "element",
+			"disabled": false,
+			"passType": "pass",
+			"name": "Validation01",
+			"match": "span(\"Spree Mug\")",
+			"target": "Link(\"Home\")"
+		}
+	]
+}
