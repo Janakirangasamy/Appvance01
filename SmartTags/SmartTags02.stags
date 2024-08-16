@@ -1,0 +1,60 @@
+{
+	"threshold": "0.75",
+	"smartTags": [
+		{
+			"name": "NewSMTag",
+			"type": "Text",
+			"tags": [
+				"input"
+			],
+			"rules": [
+				{
+					"weight": 100,
+					"type": "attrContainsValue",
+					"value": "idAPPVANCESPLITTERquantity"
+				}
+			],
+			"singleton": false,
+			"scanOncePerApp": false,
+			"scanOnePerPage": false,
+			"info": {},
+			"methods": {},
+			"validators": [
+				"validateproductnames"
+			],
+			"extractors": [
+				"extractQuantity"
+			],
+			"disabled": false,
+			"description": "",
+			"image": ""
+		}
+	],
+	"actions": [],
+	"customTags": [],
+	"validators": [
+		{
+			"name": "validateproductnames",
+			"when": "postAction",
+			"operator": "staticText",
+			"type": "",
+			"value": "",
+			"target": "$Quantity",
+			"where": "presentWholePage",
+			"locator": "",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	],
+	"extractors": [
+		{
+			"name": "extractQuantity",
+			"when": "preAction",
+			"value": "",
+			"type": "text",
+			"variable": "Quantity",
+			"disabled": false,
+			"postprocessing": ""
+		}
+	]
+}
