@@ -3,12 +3,12 @@
     <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL' locale='en_US'></dpl>
     <fallback useFallback='true'></fallback>
     <shadowDOM useShadowDOM='true'></shadowDOM>
-    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3c49f2ba-7eb4-4780-aebc-12873e273598' uiType='base'>
+    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3c49f2ba-7eb4-4780-aebc-12873e273598' uiType='base'>
       <dialect type='sahi'>
         <accessor type='' value='' selected='true' fallback='false'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='24eca153-e4af-4a9b-96bd-cce725162e81' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='24eca153-e4af-4a9b-96bd-cce725162e81' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(1, _in(nav("taxonomies")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(1, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
@@ -21,7 +21,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/mugs"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b0cdc256-a4bb-4e43-b130-6db98b34e317' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b0cdc256-a4bb-4e43-b130-6db98b34e317' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_16")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_16&apos;})))' selected='false' fallback='true'></accessor>
@@ -35,7 +35,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Spree Mug"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='64530da4-fa9a-4908-b819-49e1189f61be' uiType='base'>
+    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='64530da4-fa9a-4908-b819-49e1189f61be' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -53,7 +53,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='24c4a406-a3f9-4fd1-9c6c-74c99b0e5e97' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='24c4a406-a3f9-4fd1-9c6c-74c99b0e5e97' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -71,7 +71,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8492a92f-2702-422d-87de-4985a3e2bb97' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8492a92f-2702-422d-87de-4985a3e2bb97' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
@@ -83,7 +83,7 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;home-link&apos;)/a[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ca838f2c-a951-422f-b9a8-a964052eabe5' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ca838f2c-a951-422f-b9a8-a964052eabe5' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_9")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_9&apos;})))' selected='false' fallback='true'></accessor>
@@ -97,7 +97,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Spree Jr. Spaghetti"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='23a33ae8-f9bb-4962-a795-775db0534e30' uiType='base'>
+    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='23a33ae8-f9bb-4962-a795-775db0534e30' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -113,6 +113,11 @@
         <accessor type='JQuery' value='byJQuery(&apos;#quantity&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='include' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='072a3521-e115-44c4-bf40-f753a35cde88' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='filePath' value='"{ds}/IncludeTest.ds"' selected='true' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6a13358a-a82a-4739-8367-2a95ed820f03' uiType='base'>
@@ -231,7 +236,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6578f824-a4a6-41e6-a31e-11564d2fde9f' uiType='base'>
+    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6578f824-a4a6-41e6-a31e-11564d2fde9f' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", "password-credentials")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", {&apos;id&apos;:&apos;password-credentials&apos;})))' selected='false' fallback='true'></accessor>
@@ -248,7 +253,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='279a7e04-cafa-4d2d-9108-d48217921912' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='279a7e04-cafa-4d2d-9108-d48217921912' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control")' selected='false' fallback='true'></accessor>
@@ -263,7 +268,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='710ec75d-5d7a-4d19-ada0-fb59ea710059' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='710ec75d-5d7a-4d19-ada0-fb59ea710059' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password_confirmation"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control[1]")' selected='false' fallback='true'></accessor>
@@ -278,7 +283,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password_confirmation]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9aff8059-3a38-4a35-9c98-b2aeeb96601a' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9aff8059-3a38-4a35-9c98-b2aeeb96601a' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success")' selected='true' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
@@ -295,7 +300,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="Create"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc19aaa7-3660-47e8-ae1d-d741ddcfae45' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc19aaa7-3660-47e8-ae1d-d741ddcfae45' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
