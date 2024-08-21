@@ -234,7 +234,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6578f824-a4a6-41e6-a31e-11564d2fde9f' uiType='base'>
+    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6578f824-a4a6-41e6-a31e-11564d2fde9f' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", "password-credentials")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", {&apos;id&apos;:&apos;password-credentials&apos;})))' selected='false' fallback='true'></accessor>
@@ -251,7 +251,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='279a7e04-cafa-4d2d-9108-d48217921912' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='279a7e04-cafa-4d2d-9108-d48217921912' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control")' selected='false' fallback='true'></accessor>
@@ -266,7 +266,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='710ec75d-5d7a-4d19-ada0-fb59ea710059' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='710ec75d-5d7a-4d19-ada0-fb59ea710059' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password_confirmation"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control[1]")' selected='false' fallback='true'></accessor>
@@ -281,7 +281,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password_confirmation]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9aff8059-3a38-4a35-9c98-b2aeeb96601a' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9aff8059-3a38-4a35-9c98-b2aeeb96601a' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success")' selected='true' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
@@ -298,7 +298,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="Create"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc19aaa7-3660-47e8-ae1d-d741ddcfae45' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc19aaa7-3660-47e8-ae1d-d741ddcfae45' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
