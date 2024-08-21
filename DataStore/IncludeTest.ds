@@ -242,7 +242,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7ba9c2be-1f6a-4f51-b276-2fe4f8a2f9a7' uiType='base'>
+    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7ba9c2be-1f6a-4f51-b276-2fe4f8a2f9a7' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", "password-credentials")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", {&apos;id&apos;:&apos;password-credentials&apos;})))' selected='false' fallback='true'></accessor>
@@ -259,7 +259,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fe9e211-d40c-4c7d-9f95-a505901c4198' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fe9e211-d40c-4c7d-9f95-a505901c4198' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control")' selected='false' fallback='true'></accessor>
@@ -274,7 +274,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8e519ad9-ebc1-44a7-8cba-ee0b1446747e' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8e519ad9-ebc1-44a7-8cba-ee0b1446747e' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password_confirmation"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control[1]")' selected='false' fallback='true'></accessor>
@@ -289,7 +289,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password_confirmation]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c2afdff9-3c36-4c80-a58c-3d897664eb11' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c2afdff9-3c36-4c80-a58c-3d897664eb11' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success")' selected='true' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="commit"]&apos;)' selected='false' fallback='true'></accessor>
@@ -306,7 +306,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="Create"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"janaki"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e78f7d13-70d5-47b6-95d5-e32eb4bdc99c' uiType='base'>
+    <step action='setValue' value='"janaki"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e78f7d13-70d5-47b6-95d5-e32eb4bdc99c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='textbox(0, _in(paragraph("bfirstname")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;bfirstname&apos;})))' selected='false' fallback='true'></accessor>
@@ -324,7 +324,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][firstname]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"R"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9c5e3aef-9f41-47ad-a032-d804e56e2ab5' uiType='base'>
+    <step action='setValue' value='"R"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9c5e3aef-9f41-47ad-a032-d804e56e2ab5' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='textbox(0, _in(paragraph("blastname")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;blastname&apos;})))' selected='false' fallback='true'></accessor>
@@ -340,7 +340,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][lastname]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Raja St"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4ee98fcb-62b5-4e74-805c-30a35eaca3a5' uiType='base'>
+    <step action='setValue' value='"Raja St"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4ee98fcb-62b5-4e74-805c-30a35eaca3a5' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='textbox(0, _in(paragraph("baddress1")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='textbox(0, _in(paragraph({&apos;id&apos;:&apos;baddress1&apos;})))' selected='false' fallback='true'></accessor>
@@ -358,7 +358,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[bill_address_attributes][address1]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='12ccaa5c-1f86-4cb5-9cad-ab15e2f3d650' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='12ccaa5c-1f86-4cb5-9cad-ab15e2f3d650' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
