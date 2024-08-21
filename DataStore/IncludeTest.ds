@@ -126,7 +126,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='53fa6405-f6f0-4285-b0eb-85d583b16e42' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='53fa6405-f6f0-4285-b0eb-85d583b16e42' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -144,7 +144,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='73634c3b-7c7a-4de2-ae5a-6cfdafa0faf7' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='73634c3b-7c7a-4de2-ae5a-6cfdafa0faf7' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("home-link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;home-link&apos;})))' selected='false' fallback='true'></accessor>
@@ -156,7 +156,7 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;home-link&apos;)/a[1]")' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bf2d96b2-64b3-463d-aaec-9acf86a90479' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bf2d96b2-64b3-463d-aaec-9acf86a90479' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(nav("taxonomies")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(nav({&apos;id&apos;:&apos;taxonomies&apos;})))' selected='false' fallback='true'></accessor>
@@ -173,7 +173,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/t/bags"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='08ec9f80-4722-4380-9e5e-f7544821b890' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='08ec9f80-4722-4380-9e5e-f7544821b890' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='span(0, _in(div("product_11")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_11&apos;})))' selected='false' fallback='true'></accessor>
@@ -187,7 +187,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;span[title="Spree Tote"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"3"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7fc87306-3be8-494f-90c4-88f431712534' uiType='base'>
+    <step action='setValue' value='"3"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7fc87306-3be8-494f-90c4-88f431712534' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -205,7 +205,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b67c70d5-44d2-4795-8f8e-71dbe9affaf3' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b67c70d5-44d2-4795-8f8e-71dbe9affaf3' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -223,7 +223,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='be3e3222-4344-4fdc-88ff-4ba1fe9cda73' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='be3e3222-4344-4fdc-88ff-4ba1fe9cda73' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(1, _in(form("update-cart")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(1, _in(form({&apos;id&apos;:&apos;update-cart&apos;})))' selected='false' fallback='true'></accessor>
