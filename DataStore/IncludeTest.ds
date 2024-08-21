@@ -242,7 +242,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7ba9c2be-1f6a-4f51-b276-2fe4f8a2f9a7' uiType='base'>
+    <step action='setValue' value='"janaki.rangasamy@ibotsystems.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7ba9c2be-1f6a-4f51-b276-2fe4f8a2f9a7' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", "password-credentials")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='emailbox(0, _in(custom("fieldset", {&apos;id&apos;:&apos;password-credentials&apos;})))' selected='false' fallback='true'></accessor>
@@ -259,7 +259,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fe9e211-d40c-4c7d-9f95-a505901c4198' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fe9e211-d40c-4c7d-9f95-a505901c4198' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control")' selected='false' fallback='true'></accessor>
@@ -274,7 +274,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="spree_user[password]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8e519ad9-ebc1-44a7-8cba-ee0b1446747e' uiType='base' isMasked='true'>
+    <step action='setValue' value='"Janaki@123"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8e519ad9-ebc1-44a7-8cba-ee0b1446747e' uiType='base' isMasked='true'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="spree_user_password_confirmation"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='password("form-control[1]")' selected='false' fallback='true'></accessor>
